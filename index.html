@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Guida Claude</title>
+<meta name="description" content="Guida tascabile a skill, connettori e novità di Claude.">
+<meta name="theme-color" content="#f7f6f3" media="(prefers-color-scheme: light)">
+<meta name="theme-color" content="#17171a" media="(prefers-color-scheme: dark)">
+<link rel="manifest" href="manifest.webmanifest">
+<link rel="icon" href="icons/icon-192.png" type="image/png">
+<link rel="apple-touch-icon" href="icons/apple-touch-icon.png">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="default">
+<meta name="apple-mobile-web-app-title" content="Guida Claude">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header class="top">
+  <div class="title">
+    <h1 id="h1">Skill</h1>
+    <button id="install" class="ghost" hidden>Installa</button>
+  </div>
+  <input type="search" id="q" placeholder="Cerca…" autocomplete="off">
+  <div class="chips" id="chips"></div>
+</header>
+
+<main id="main" aria-live="polite"></main>
+
+<div id="toast" class="toast" hidden></div>
+
+<nav class="tabbar" id="tabbar">
+  <a href="#skill" data-v="skill"><svg viewBox="0 0 24 24"><path d="M12 2l2.6 6.3L21 9l-5 4.4L17.5 20 12 16.6 6.5 20 8 13.4 3 9l6.4-.7z"/></svg><span>Skill</span></a>
+  <a href="#connettori" data-v="connettori"><svg viewBox="0 0 24 24"><path d="M8 3v5M16 3v5M5 8h14v3a7 7 0 01-14 0zM12 18v3"/></svg><span>Connettori</span></a>
+  <a href="#novita" data-v="novita"><svg viewBox="0 0 24 24"><path d="M6 8a6 6 0 1112 0c0 7 3 8 3 8H3s3-1 3-8M10 20a2 2 0 004 0"/></svg><span>Novità</span></a>
+  <a href="#perte" data-v="perte"><svg viewBox="0 0 24 24"><path d="M12 21s-8-4.5-8-11a5 5 0 019-3 5 5 0 019 3c0 6.5-8 11-8 11z"/></svg><span>Per te</span></a>
+  <a href="#guida" data-v="guida"><svg viewBox="0 0 24 24"><path d="M4 5a2 2 0 012-2h13v16H6a2 2 0 00-2 2zM4 19V5"/></svg><span>Guida</span></a>
+</nav>
+
+<script src="app.js"></script>
+</body>
+</html>

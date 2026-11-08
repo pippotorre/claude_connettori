@@ -1,0 +1,1270 @@
+{
+ "updated": "2026-11-08",
+ "skills": [
+  {
+   "id": "docs",
+   "cat": "Documenti e file",
+   "desc": "Crea documenti modificabili, condivisibili e commentabili, esportabili in Word, PDF, Markdown o Google Docs.",
+   "when": "Report, lettere, proposte, CV, guide: qualsiasi testo da conservare o condividere."
+  },
+  {
+   "id": "docx",
+   "cat": "Documenti e file",
+   "desc": "Crea e modifica veri file Word (.docx), con revisioni tracciate, commenti e modelli.",
+   "when": "Quando ti serve proprio un file Word o devi modificarne uno esistente."
+  },
+  {
+   "id": "xlsx",
+   "cat": "Documenti e file",
+   "desc": "Crea, modifica e ripulisce fogli Excel e CSV, con formule e grafici.",
+   "when": "File Excel da consegnare, dati disordinati da sistemare, conversioni tra formati."
+  },
+  {
+   "id": "pptx",
+   "cat": "Documenti e file",
+   "desc": "Crea, legge e modifica presentazioni PowerPoint.",
+   "when": "Quando chiedi esplicitamente un .pptx; altrimenti uso le Slides native."
+  },
+  {
+   "id": "pdf",
+   "cat": "Documenti e file",
+   "desc": "Unisce, divide, ruota, filigrana, cifra, compila moduli e fa OCR sui PDF; crea nuovi PDF.",
+   "when": "Qualsiasi operazione che trasforma un PDF."
+  },
+  {
+   "id": "pdf-reading",
+   "cat": "Documenti e file",
+   "desc": "Legge ed estrae testo, tabelle, immagini e campi dai PDF, anche scansionati.",
+   "when": "Analizzare o riassumere un PDF lungo o complesso."
+  },
+  {
+   "id": "file-reading",
+   "cat": "Documenti e file",
+   "desc": "Sceglie il modo giusto di aprire ogni tipo di file caricato (pdf, docx, xlsx, archivi, ebook…).",
+   "when": "Quando mi alleghi un file da leggere."
+  },
+  {
+   "id": "google-workspace",
+   "cat": "Documenti e file",
+   "desc": "Crea e modifica Google Docs, Sheets e Slides direttamente sul tuo Drive.",
+   "when": "Quando chiedi esplicitamente un file Google."
+  },
+  {
+   "id": "dataviz",
+   "cat": "Design e visualizzazione",
+   "desc": "Regole per grafici, dashboard e KPI eleganti, accessibili e coerenti in chiaro e scuro.",
+   "when": "Ogni volta che produco un grafico, in qualsiasi formato."
+  },
+  {
+   "id": "frontend-design",
+   "cat": "Design e visualizzazione",
+   "desc": "Direzione estetica, tipografia e scelte visive non banali per interfacce.",
+   "when": "Siti, landing page, interfacce e loro restyling."
+  },
+  {
+   "id": "video-making",
+   "cat": "Design e visualizzazione",
+   "desc": "Realizza video nuovi da zero.",
+   "when": "Brevi video o animazioni (non per montare un tuo video)."
+  },
+  {
+   "id": "deep-research",
+   "cat": "Ricerca e produttività",
+   "desc": "Ricerca approfondita su molte fonti con agenti paralleli, sintetizzata in un report.",
+   "when": "Analisi di mercato, confronti tra alternative, rassegne di studi."
+  },
+  {
+   "id": "morning",
+   "cat": "Ricerca e produttività",
+   "slash": true,
+   "desc": "Brief mattutino (calendario, email, priorità) come pagina, anche ricorrente nei giorni feriali.",
+   "when": "Solo su richiesta: /morning."
+  },
+  {
+   "id": "import-memory",
+   "cat": "Ricerca e produttività",
+   "desc": "Importa la memoria esportata da un altro assistente AI.",
+   "when": "Se arrivi da ChatGPT, Gemini o simili."
+  },
+  {
+   "id": "built-in-browser",
+   "cat": "Browser e computer",
+   "desc": "Uso del browser integrato nell'app desktop di Claude, con i suoi accessi.",
+   "when": "Compilare moduli, cliccare flussi, leggere pagine con login."
+  },
+  {
+   "id": "chrome-browser",
+   "cat": "Browser e computer",
+   "desc": "Uso del tuo Chrome reale tramite l'estensione, con le tue sessioni.",
+   "when": "Come sopra, ma quando servono i tuoi accessi di Chrome."
+  },
+  {
+   "id": "computer-use",
+   "cat": "Browser e computer",
+   "desc": "Controllo delle app desktop sul tuo computer tramite screenshot, clic e digitazione.",
+   "when": "Note, Finder, Impostazioni o qualsiasi app non web."
+  },
+  {
+   "id": "skill-creator",
+   "cat": "Personalizzare Claude",
+   "desc": "Crea, migliora e testa nuove skill, anche misurandone le prestazioni.",
+   "when": "Per insegnarmi un tuo procedimento ricorrente."
+  },
+  {
+   "id": "cowork-plugin",
+   "cat": "Personalizzare Claude",
+   "desc": "Crea un plugin da zero o personalizza uno installato per la tua organizzazione.",
+   "when": "Per impacchettare skill e connettori per un ruolo o un team."
+  },
+  {
+   "id": "plugin-authoring",
+   "cat": "Personalizzare Claude",
+   "desc": "Crea \"mod\": pannelli laterali, barre di stato, comandi slash, hook sugli strumenti.",
+   "when": "Per cambiare come appare e si comporta Claude."
+  },
+  {
+   "id": "setup-claude",
+   "cat": "Personalizzare Claude",
+   "slash": true,
+   "desc": "Configurazione guidata: scegli il ruolo, installi un plugin, colleghi gli strumenti.",
+   "when": "Al primo avvio o per ripartire: /setup-claude."
+  },
+  {
+   "id": "explain-usage",
+   "cat": "Personalizzare Claude",
+   "slash": true,
+   "desc": "Spiega con un grafico dove sono andati i token della sessione.",
+   "when": "Per capire i consumi: /explain-usage."
+  },
+  {
+   "id": "product-self-knowledge",
+   "cat": "Personalizzare Claude",
+   "desc": "Informazioni verificate su Claude, Claude Code, API e piani.",
+   "when": "Domande su prezzi, limiti e funzioni dei prodotti Anthropic."
+  },
+  {
+   "id": "elastic:cloud-onboarding",
+   "cat": "Plugin Elastic",
+   "desc": "Configura il CLI Elastic Cloud, regioni, utenti, ruoli e chiavi API.",
+   "when": "Impostare l'accesso a un'organizzazione Elastic Cloud."
+  },
+  {
+   "id": "elastic:cloud-provisioning",
+   "cat": "Plugin Elastic",
+   "desc": "Crea e gestisce progetti Serverless, deployment Hosted e filtri di rete.",
+   "when": "Creare o mantenere l'infrastruttura Elastic Cloud."
+  },
+  {
+   "id": "elastic:elasticsearch-esql",
+   "cat": "Plugin Elastic",
+   "desc": "Esegue query ES|QL per esplorare log, metriche e dati.",
+   "when": "Interrogare Elasticsearch e aggregare risultati."
+  },
+  {
+   "id": "elastic:elasticsearch-index-design",
+   "cat": "Plugin Elastic",
+   "desc": "Progetta e rivede mapping e impostazioni degli indici.",
+   "when": "Nuovo indice o tipi di campo da correggere."
+  },
+  {
+   "id": "elastic:elasticsearch-ingest",
+   "cat": "Plugin Elastic",
+   "desc": "Carica CSV e JSON con la bulk API e mapping espliciti.",
+   "when": "Importare file locali in un indice."
+  },
+  {
+   "id": "elastic:elasticsearch-reindex",
+   "cat": "Plugin Elastic",
+   "desc": "Reindex locale e remoto con slicing, throttling e task API.",
+   "when": "Migrare indici o cambiare mapping."
+  },
+  {
+   "id": "elastic:elasticsearch-query-optimization",
+   "cat": "Plugin Elastic",
+   "desc": "Diagnostica le ricerche lente con il profiling e propone correzioni misurate.",
+   "when": "Una ricerca Query DSL è lenta."
+  },
+  {
+   "id": "elastic:elasticsearch-search-relevance",
+   "cat": "Plugin Elastic",
+   "desc": "Migliora la pertinenza dei risultati con query rules, boost e analisi.",
+   "when": "I risultati di ricerca sono ordinati male."
+  },
+  {
+   "id": "elastic:elasticsearch-cluster-health",
+   "cat": "Plugin Elastic",
+   "desc": "Individua la causa più probabile di un cluster giallo o rosso.",
+   "when": "Shard non assegnati, cluster non verde."
+  },
+  {
+   "id": "elastic:elasticsearch-onboarding",
+   "cat": "Plugin Elastic",
+   "desc": "Guida da zero a una prima esperienza di ricerca funzionante.",
+   "when": "Chi inizia con Elasticsearch."
+  },
+  {
+   "id": "elastic:elasticsearch-anomaly-detection",
+   "cat": "Plugin Elastic",
+   "desc": "Crea e gestisce job ML di anomaly detection e datafeed.",
+   "when": "Impostare il rilevamento di anomalie su un indice."
+  },
+  {
+   "id": "elastic:elasticsearch-anomaly-detection-explainer",
+   "cat": "Plugin Elastic",
+   "desc": "Spiega punteggi e comportamento dei modelli di anomaly detection.",
+   "when": "Capire perché un punteggio è alto o basso."
+  },
+  {
+   "id": "elastic:kibana-anomaly-detection",
+   "cat": "Plugin Elastic",
+   "desc": "Indagini, root cause analysis e troubleshooting dei job ML da Kibana.",
+   "when": "\"Cosa si è rotto e dove?\""
+  },
+  {
+   "id": "elastic:kibana-dashboards",
+   "cat": "Plugin Elastic",
+   "desc": "Definisce dashboard e visualizzazioni Lens in modo dichiarativo.",
+   "when": "Dashboard versionate o distribuite in automatico."
+  },
+  {
+   "id": "elastic:kibana-alerting-rules",
+   "cat": "Plugin Elastic",
+   "desc": "Crea e gestisce regole di alert (soglie, snooze, mute).",
+   "when": "Impostare o rivedere gli alert."
+  },
+  {
+   "id": "elastic:kibana-workflows",
+   "cat": "Plugin Elastic",
+   "desc": "Scrive, valida ed esegue workflow YAML di Kibana.",
+   "when": "Trasformare una richiesta in un workflow automatico."
+  },
+  {
+   "id": "elastic:kibana-agent-builder",
+   "cat": "Plugin Elastic",
+   "desc": "Crea e gestisce agenti e tool in Kibana Agent Builder.",
+   "when": "Costruire agenti AI dentro Kibana."
+  },
+  {
+   "id": "elastic:observability-onboarding",
+   "cat": "Plugin Elastic",
+   "desc": "Strumenta un'applicazione con OpenTelemetry (EDOT) e verifica i dati.",
+   "when": "Aggiungere osservabilità a un servizio."
+  },
+  {
+   "id": "elastic:observability-sre-triage",
+   "cat": "Plugin Elastic",
+   "desc": "Triage completo di un servizio degradato: SLO, alert, latenza, errori, log.",
+   "when": "\"Il servizio è sano? Perché è lento?\""
+  },
+  {
+   "id": "elastic:observability-service-reliability",
+   "cat": "Plugin Elastic",
+   "desc": "Progetta SLO, error budget e alert di burn rate.",
+   "when": "Definire obiettivi di affidabilità."
+  },
+  {
+   "id": "elastic:observability-k8s-investigation",
+   "cat": "Plugin Elastic",
+   "desc": "Indaga problemi di pod, nodi e control plane Kubernetes.",
+   "when": "CrashLoopBackOff, OOMKilled, pressione sui nodi."
+  },
+  {
+   "id": "elastic:observability-llm-obs",
+   "cat": "Plugin Elastic",
+   "desc": "Analizza latenza, token, costi e guardrail delle applicazioni LLM.",
+   "when": "Monitorare app e agenti AI."
+  },
+  {
+   "id": "elastic:security-alert-triage",
+   "cat": "Plugin Elastic",
+   "desc": "Triage degli alert di sicurezza: contesto, classificazione, casi.",
+   "when": "Analisi SOC delle detection."
+  },
+  {
+   "id": "elastic:security-case-management",
+   "cat": "Plugin Elastic",
+   "desc": "Crea e aggiorna i casi SOC tramite le API di Kibana.",
+   "when": "Tracciare incidenti e note di indagine."
+  },
+  {
+   "id": "elastic:security-detection-rule-management",
+   "cat": "Plugin Elastic",
+   "desc": "Crea e affina regole di detection, eccezioni e falsi positivi.",
+   "when": "Regole rumorose o nuova copertura."
+  },
+  {
+   "id": "elastic:security-generate-security-sample-data",
+   "cat": "Plugin Elastic",
+   "desc": "Genera eventi, scenari d'attacco e alert sintetici.",
+   "when": "Demo, POC, test delle regole."
+  }
+ ],
+ "connectors": [
+  {
+   "name": "Gmail",
+   "cat": "Email, calendario e messaggi",
+   "desc": "Cerca e legge la posta, crea bozze, risponde, inoltra, gestisce etichette.",
+   "status": "attivo",
+   "noLogin": false
+  },
+  {
+   "name": "Google Calendar",
+   "cat": "Email, calendario e messaggi",
+   "desc": "Legge e crea eventi, risponde agli inviti, trova orari liberi.",
+   "status": "attivo",
+   "noLogin": false
+  },
+  {
+   "name": "Microsoft 365",
+   "cat": "Email, calendario e messaggi",
+   "desc": "Outlook (posta e calendario), Teams, SharePoint e OneDrive.",
+   "status": "disponibile",
+   "noLogin": false
+  },
+  {
+   "name": "Slack",
+   "cat": "Email, calendario e messaggi",
+   "desc": "Cerca e legge canali e thread, invia messaggi, crea canvas.",
+   "status": "disponibile",
+   "noLogin": false
+  },
+  {
+   "name": "Superhuman Mail",
+   "cat": "Email, calendario e messaggi",
+   "desc": "Assistente email e calendario per Gmail e Outlook.",
+   "status": "disponibile",
+   "noLogin": false
+  },
+  {
+   "name": "Fastmail",
+   "cat": "Email, calendario e messaggi",
+   "desc": "Posta, contatti, calendario e note del tuo account Fastmail.",
+   "status": "disponibile",
+   "noLogin": false
+  },
+  {
+   "name": "Bird",
+   "cat": "Email, calendario e messaggi",
+   "desc": "Email, SMS, WhatsApp e chiamate da un'unica piattaforma.",
+   "status": "disponibile",
+   "noLogin": false
+  },
+  {
+   "name": "Sent",
+   "cat": "Email, calendario e messaggi",
+   "desc": "Messaggi ai clienti via SMS, WhatsApp e RCS.",
+   "status": "disponibile",
+   "noLogin": false
+  },
+  {
+   "name": "Zoom",
+   "cat": "Riunioni e trascrizioni",
+   "desc": "Cerca, riassume e agisce sulle riunioni e registrazioni Zoom.",
+   "status": "disponibile",
+   "noLogin": false
+  },
+  {
+   "name": "Webex Meetings",
+   "cat": "Riunioni e trascrizioni",
+   "desc": "Crea riunioni, legge riepiloghi, registrazioni e trascrizioni.",
+   "status": "disponibile",
+   "noLogin": false
+  },
+  {
+   "name": "Circleback",
+   "cat": "Riunioni e trascrizioni",
+   "desc": "Cerca nelle riunioni, nelle trascrizioni e nei contesti collegati.",
+   "status": "disponibile",
+   "noLogin": false
+  },
+  {
+   "name": "Grain",
+   "cat": "Riunioni e trascrizioni",
+   "desc": "Note, trascrizioni e insight delle riunioni registrate.",
+   "status": "disponibile",
+   "noLogin": false
+  },
+  {
+   "name": "Wispr Flow",
+   "cat": "Riunioni e trascrizioni",
+   "desc": "Riunioni, note e attività di Wispr Flow come contesto.",
+   "status": "disponibile",
+   "noLogin": false
+  },
+  {
+   "name": "Google Drive",
+   "cat": "Documenti, note e file",
+   "desc": "Cerca, legge, crea e condivide file su Drive.",
+   "status": "attivo",
+   "noLogin": false
+  },
+  {
+   "name": "Google Docs",
+   "cat": "Documenti, note e file",
+   "desc": "Modifica, commenta e riassume i Google Docs.",
+   "status": "collegato, non attivo in chat",
+   "noLogin": false
+  },
+  {
+   "name": "Google Sheets",
+   "cat": "Documenti, note e file",
+   "desc": "Legge, analizza e aggiorna i fogli Google.",
+   "status": "disponibile",
+   "noLogin": false
+  },
+  {
+   "name": "Notion",
+   "cat": "Documenti, note e file",
+   "desc": "Cerca, crea e aggiorna pagine e database Notion.",
+   "status": "disponibile",
+   "noLogin": false
+  },
+  {
+   "name": "Dropbox",
+   "cat": "Documenti, note e file",
+   "desc": "Cerca, organizza, condivide e crea file su Dropbox.",
+   "status": "disponibile",
+   "noLogin": false
+  },
+  {
+   "name": "Box",
+   "cat": "Documenti, note e file",
+   "desc": "Cerca file e fa domande sui contenuti con l'AI di Box.",
+   "status": "disponibile",
+   "noLogin": false
+  },
+  {
+   "name": "Evernote",
+   "cat": "Documenti, note e file",
+   "desc": "Cerca, modifica e organizza note e taccuini.",
+   "status": "disponibile",
+   "noLogin": false
+  },
+  {
+   "name": "Craft",
+   "cat": "Documenti, note e file",
+   "desc": "Note e \"secondo cervello\": blocchi, documenti, raccolte.",
+   "status": "disponibile",
+   "noLogin": false
+  },
+  {
+   "name": "Roam Research",
+   "cat": "Documenti, note e file",
+   "desc": "Legge, cerca e scrive nei grafi di Roam.",
+   "status": "disponibile",
+   "noLogin": false
+  },
+  {
+   "name": "Goodnotes",
+   "cat": "Documenti, note e file",
+   "desc": "Trasforma le risposte in documenti, diagrammi e disegni.",
+   "status": "disponibile",
+   "noLogin": true
+  },
+  {
+   "name": "Airtable",
+   "cat": "Documenti, note e file",
+   "desc": "Legge e scrive basi, tabelle e record.",
+   "status": "disponibile",
+   "noLogin": false
+  },
+  {
+   "name": "Docusign",
+   "cat": "Documenti, note e file",
+   "desc": "Buste, modelli e firme elettroniche dei contratti.",
+   "status": "disponibile",
+   "noLogin": false
+  },
+  {
+   "name": "Asana",
+   "cat": "Progetti e attività",
+   "desc": "Attività, progetti, portfolio e obiettivi.",
+   "status": "disponibile",
+   "noLogin": false
+  },
+  {
+   "name": "Atlassian (Jira, Confluence)",
+   "cat": "Progetti e attività",
+   "desc": "Jira, Confluence, Bitbucket e Loom con i tuoi permessi.",
+   "status": "disponibile",
+   "noLogin": false
+  },
+  {
+   "name": "Linear",
+   "cat": "Progetti e attività",
+   "desc": "Issue, progetti, cicli e documenti del team.",
+   "status": "disponibile",
+   "noLogin": false
+  },
+  {
+   "name": "Trello",
+   "cat": "Progetti e attività",
+   "desc": "Bacheche, liste, schede e checklist.",
+   "status": "disponibile",
+   "noLogin": false
+  },
+  {
+   "name": "ClickUp",
+   "cat": "Progetti e attività",
+   "desc": "Attività, commenti e gerarchia dello spazio di lavoro.",
+   "status": "disponibile",
+   "noLogin": false
+  },
+  {
+   "name": "monday.com",
+   "cat": "Progetti e attività",
+   "desc": "Board, progetti, workflow, dashboard e portfolio.",
+   "status": "disponibile",
+   "noLogin": false
+  },
+  {
+   "name": "Todoist",
+   "cat": "Progetti e attività",
+   "desc": "Cerca, crea e completa le tue attività.",
+   "status": "disponibile",
+   "noLogin": false
+  },
+  {
+   "name": "TickTick",
+   "cat": "Progetti e attività",
+   "desc": "Attività e abitudini di TickTick.",
+   "status": "disponibile",
+   "noLogin": false
+  },
+  {
+   "name": "Wrike",
+   "cat": "Progetti e attività",
+   "desc": "Lavori, commenti e inbox di Wrike.",
+   "status": "disponibile",
+   "noLogin": false
+  },
+  {
+   "name": "MeisterTask",
+   "cat": "Progetti e attività",
+   "desc": "Attività, progetti, checklist e note.",
+   "status": "disponibile",
+   "noLogin": false
+  },
+  {
+   "name": "Miro",
+   "cat": "Progetti e attività",
+   "desc": "Legge e crea contenuti e diagrammi sulle lavagne Miro.",
+   "status": "disponibile",
+   "noLogin": false
+  },
+  {
+   "name": "Fibery",
+   "cat": "Progetti e attività",
+   "desc": "Costruisce processi su misura: roadmap, CRM, OKR.",
+   "status": "disponibile",
+   "noLogin": false
+  },
+  {
+   "name": "Zapier",
+   "cat": "Automazioni",
+   "desc": "Automatizza flussi tra migliaia di app.",
+   "status": "disponibile",
+   "noLogin": false
+  },
+  {
+   "name": "Make",
+   "cat": "Automazioni",
+   "desc": "Esegue e gestisce scenari Make.",
+   "status": "disponibile",
+   "noLogin": false
+  },
+  {
+   "name": "n8n",
+   "cat": "Automazioni",
+   "desc": "Cerca ed esegue i tuoi workflow n8n.",
+   "status": "disponibile",
+   "noLogin": false
+  },
+  {
+   "name": "Softr",
+   "cat": "Automazioni",
+   "desc": "Crea strumenti interni, workflow e database.",
+   "status": "disponibile",
+   "noLogin": false
+  },
+  {
+   "name": "Tines",
+   "cat": "Automazioni",
+   "desc": "Crea e pubblica app, agenti e automazioni su Tines.",
+   "status": "disponibile",
+   "noLogin": false
+  },
+  {
+   "name": "HubSpot",
+   "cat": "Vendite, CRM e supporto",
+   "desc": "Contatti, aziende, trattative, campagne e analytics.",
+   "status": "disponibile",
+   "noLogin": false
+  },
+  {
+   "name": "Salesforce",
+   "cat": "Vendite, CRM e supporto",
+   "desc": "Vendite, servizio clienti e operazioni su Salesforce.",
+   "status": "disponibile",
+   "noLogin": false
+  },
+  {
+   "name": "Zoho CRM",
+   "cat": "Vendite, CRM e supporto",
+   "desc": "Moduli, record e workflow di Zoho CRM.",
+   "status": "disponibile",
+   "noLogin": false
+  },
+  {
+   "name": "Bigin by Zoho",
+   "cat": "Vendite, CRM e supporto",
+   "desc": "CRM semplice per piccole imprese.",
+   "status": "disponibile",
+   "noLogin": false
+  },
+  {
+   "name": "Salesflare",
+   "cat": "Vendite, CRM e supporto",
+   "desc": "Account, contatti e opportunità.",
+   "status": "disponibile",
+   "noLogin": false
+  },
+  {
+   "name": "Nutshell CRM",
+   "cat": "Vendite, CRM e supporto",
+   "desc": "Lead, contatti e report di vendita.",
+   "status": "disponibile",
+   "noLogin": false
+  },
+  {
+   "name": "Salesloft",
+   "cat": "Vendite, CRM e supporto",
+   "desc": "Trattative, engagement e pipeline in tempo reale.",
+   "status": "disponibile",
+   "noLogin": false
+  },
+  {
+   "name": "ZoomInfo",
+   "cat": "Vendite, CRM e supporto",
+   "desc": "Ricerca prospect e arricchimento dati B2B.",
+   "status": "disponibile",
+   "noLogin": false
+  },
+  {
+   "name": "Intercom",
+   "cat": "Vendite, CRM e supporto",
+   "desc": "Conversazioni e contatti dei clienti.",
+   "status": "disponibile",
+   "noLogin": false
+  },
+  {
+   "name": "Zoho Desk",
+   "cat": "Vendite, CRM e supporto",
+   "desc": "Ticket e assistenza clienti.",
+   "status": "disponibile",
+   "noLogin": false
+  },
+  {
+   "name": "Customer.io",
+   "cat": "Vendite, CRM e supporto",
+   "desc": "Automazioni, segmenti ed email ai clienti.",
+   "status": "disponibile",
+   "noLogin": false
+  },
+  {
+   "name": "Supermetrics",
+   "cat": "Marketing, social e SEO",
+   "desc": "Analytics di Google, Meta, TikTok, LinkedIn Ads e social.",
+   "status": "disponibile",
+   "noLogin": false
+  },
+  {
+   "name": "Windsor.ai",
+   "cat": "Marketing, social e SEO",
+   "desc": "Report su oltre 350 fonti marketing e gestione post.",
+   "status": "disponibile",
+   "noLogin": false
+  },
+  {
+   "name": "Ahrefs",
+   "cat": "Marketing, social e SEO",
+   "desc": "SEO e visibilità nelle risposte delle AI.",
+   "status": "disponibile",
+   "noLogin": false
+  },
+  {
+   "name": "OpenSEO",
+   "cat": "Marketing, social e SEO",
+   "desc": "Audit SEO, ranking e concorrenti.",
+   "status": "disponibile",
+   "noLogin": false
+  },
+  {
+   "name": "Metricool",
+   "cat": "Marketing, social e SEO",
+   "desc": "Pianifica e analizza i post social.",
+   "status": "disponibile",
+   "noLogin": false
+  },
+  {
+   "name": "Typefully",
+   "cat": "Marketing, social e SEO",
+   "desc": "Programma post su X, LinkedIn, Threads, Bluesky.",
+   "status": "disponibile",
+   "noLogin": false
+  },
+  {
+   "name": "Taplio",
+   "cat": "Marketing, social e SEO",
+   "desc": "Gestione e analytics di LinkedIn.",
+   "status": "disponibile",
+   "noLogin": false
+  },
+  {
+   "name": "vidIQ",
+   "cat": "Marketing, social e SEO",
+   "desc": "Ricerca e idee per YouTube, Instagram e TikTok.",
+   "status": "disponibile",
+   "noLogin": false
+  },
+  {
+   "name": "WordPress.com",
+   "cat": "Marketing, social e SEO",
+   "desc": "Gestisce i tuoi siti WordPress.com.",
+   "status": "disponibile",
+   "noLogin": false
+  },
+  {
+   "name": "Canva",
+   "cat": "Design e media",
+   "desc": "Cerca, crea, compila ed esporta design Canva.",
+   "status": "disponibile",
+   "noLogin": false
+  },
+  {
+   "name": "Figma",
+   "cat": "Design e media",
+   "desc": "Contesto dai file Figma per diagrammi e codice.",
+   "status": "disponibile",
+   "noLogin": false
+  },
+  {
+   "name": "Adobe",
+   "cat": "Design e media",
+   "desc": "Strumenti Adobe e Acrobat per design e PDF.",
+   "status": "disponibile",
+   "noLogin": false
+  },
+  {
+   "name": "Cloudinary",
+   "cat": "Design e media",
+   "desc": "Gestisce, trasforma e distribuisce immagini e video.",
+   "status": "disponibile",
+   "noLogin": false
+  },
+  {
+   "name": "Picsart Media Studio",
+   "cat": "Design e media",
+   "desc": "Trasforma clip e foto in video finiti.",
+   "status": "disponibile",
+   "noLogin": false
+  },
+  {
+   "name": "Moda",
+   "cat": "Design e media",
+   "desc": "Presentazioni, ads e grafiche social modificabili.",
+   "status": "disponibile",
+   "noLogin": false
+  },
+  {
+   "name": "Wonder",
+   "cat": "Design e media",
+   "desc": "Design su canvas dove ogni elemento è codice.",
+   "status": "disponibile",
+   "noLogin": false
+  },
+  {
+   "name": "Vercel",
+   "cat": "Sviluppo, cloud e database",
+   "desc": "Progetti, deployment e documentazione Vercel.",
+   "status": "disponibile",
+   "noLogin": false
+  },
+  {
+   "name": "Supabase",
+   "cat": "Sviluppo, cloud e database",
+   "desc": "Database, autenticazione e storage.",
+   "status": "disponibile",
+   "noLogin": false
+  },
+  {
+   "name": "Cloudflare",
+   "cat": "Sviluppo, cloud e database",
+   "desc": "Workers, KV, storage e AI di Cloudflare.",
+   "status": "disponibile",
+   "noLogin": false
+  },
+  {
+   "name": "Render",
+   "cat": "Sviluppo, cloud e database",
+   "desc": "Crea e gestisce servizi, database e siti su Render.",
+   "status": "disponibile",
+   "noLogin": false
+  },
+  {
+   "name": "Neon",
+   "cat": "Sviluppo, cloud e database",
+   "desc": "Postgres serverless, branch e migrazioni.",
+   "status": "disponibile",
+   "noLogin": false
+  },
+  {
+   "name": "MongoDB Atlas",
+   "cat": "Sviluppo, cloud e database",
+   "desc": "Cluster, dati e performance di MongoDB.",
+   "status": "disponibile",
+   "noLogin": false
+  },
+  {
+   "name": "Snowflake",
+   "cat": "Sviluppo, cloud e database",
+   "desc": "Dati strutturati e non con Cortex.",
+   "status": "disponibile",
+   "noLogin": false
+  },
+  {
+   "name": "Google BigQuery",
+   "cat": "Sviluppo, cloud e database",
+   "desc": "Interroga dataset e tabelle BigQuery in SQL.",
+   "status": "disponibile",
+   "noLogin": false
+  },
+  {
+   "name": "Elastic Cloud Serverless",
+   "cat": "Sviluppo, cloud e database",
+   "desc": "ES|QL, indici, documenti e workflow Elastic.",
+   "status": "disponibile",
+   "noLogin": false
+  },
+  {
+   "name": "PostHog",
+   "cat": "Sviluppo, cloud e database",
+   "desc": "Insight e query di product analytics.",
+   "status": "disponibile",
+   "noLogin": false
+  },
+  {
+   "name": "Omni Analytics",
+   "cat": "Sviluppo, cloud e database",
+   "desc": "Interroga i dati in linguaggio naturale.",
+   "status": "disponibile",
+   "noLogin": false
+  },
+  {
+   "name": "Sentry",
+   "cat": "Monitoraggio e sicurezza",
+   "desc": "Cerca e analizza errori e release.",
+   "status": "disponibile",
+   "noLogin": false
+  },
+  {
+   "name": "Datadog",
+   "cat": "Monitoraggio e sicurezza",
+   "desc": "Log, metriche, monitor e incidenti.",
+   "status": "disponibile",
+   "noLogin": false
+  },
+  {
+   "name": "Grafana Cloud",
+   "cat": "Monitoraggio e sicurezza",
+   "desc": "Metriche, log, tracce, dashboard e alert.",
+   "status": "disponibile",
+   "noLogin": false
+  },
+  {
+   "name": "New Relic",
+   "cat": "Monitoraggio e sicurezza",
+   "desc": "Osservabilità, errori e impatto dei deploy.",
+   "status": "disponibile",
+   "noLogin": false
+  },
+  {
+   "name": "PagerDuty",
+   "cat": "Monitoraggio e sicurezza",
+   "desc": "Incidenti, servizi e turni di reperibilità.",
+   "status": "disponibile",
+   "noLogin": false
+  },
+  {
+   "name": "incident.io",
+   "cat": "Monitoraggio e sicurezza",
+   "desc": "Alert, incidenti e analisi.",
+   "status": "disponibile",
+   "noLogin": false
+  },
+  {
+   "name": "Better Stack",
+   "cat": "Monitoraggio e sicurezza",
+   "desc": "Log, uptime, dashboard e incidenti.",
+   "status": "disponibile",
+   "noLogin": false
+  },
+  {
+   "name": "Drata",
+   "cat": "Monitoraggio e sicurezza",
+   "desc": "Conformità e gestione del rischio.",
+   "status": "disponibile",
+   "noLogin": false
+  },
+  {
+   "name": "Stripe",
+   "cat": "Finanza, pagamenti e contabilità",
+   "desc": "Pagamenti, saldi e API Stripe.",
+   "status": "disponibile",
+   "noLogin": false
+  },
+  {
+   "name": "QuickBooks",
+   "cat": "Finanza, pagamenti e contabilità",
+   "desc": "Conto economico, cash flow e transazioni.",
+   "status": "disponibile",
+   "noLogin": true
+  },
+  {
+   "name": "FreshBooks",
+   "cat": "Finanza, pagamenti e contabilità",
+   "desc": "Report contabili, clienti e spese.",
+   "status": "disponibile",
+   "noLogin": false
+  },
+  {
+   "name": "BILL",
+   "cat": "Finanza, pagamenti e contabilità",
+   "desc": "Fatture passive e attive, pagamenti.",
+   "status": "disponibile",
+   "noLogin": false
+  },
+  {
+   "name": "NumbersGame",
+   "cat": "Finanza, pagamenti e contabilità",
+   "desc": "QuickBooks e Xero: fatture, riconciliazioni, report.",
+   "status": "disponibile",
+   "noLogin": false
+  },
+  {
+   "name": "Financial Datasets",
+   "cat": "Finanza, pagamenti e contabilità",
+   "desc": "Bilanci, utili e dati di borsa.",
+   "status": "disponibile",
+   "noLogin": false
+  },
+  {
+   "name": "Alpha Vantage",
+   "cat": "Finanza, pagamenti e contabilità",
+   "desc": "Azioni, opzioni, indicatori, cambi e materie prime.",
+   "status": "disponibile",
+   "noLogin": false
+  },
+  {
+   "name": "FactSet",
+   "cat": "Finanza, pagamenti e contabilità",
+   "desc": "Dati finanziari di livello istituzionale.",
+   "status": "disponibile",
+   "noLogin": false
+  },
+  {
+   "name": "CoinGecko",
+   "cat": "Finanza, pagamenti e contabilità",
+   "desc": "Prezzi e trend delle criptovalute.",
+   "status": "disponibile",
+   "noLogin": true
+  },
+  {
+   "name": "Crypto.com",
+   "cat": "Finanza, pagamenti e contabilità",
+   "desc": "Prezzi, scambi e grafici crypto in tempo reale.",
+   "status": "disponibile",
+   "noLogin": true
+  },
+  {
+   "name": "BambooHR",
+   "cat": "HR e legale",
+   "desc": "Dipendenti, ferie, report e selezione.",
+   "status": "disponibile",
+   "noLogin": false
+  },
+  {
+   "name": "Breezy HR",
+   "cat": "HR e legale",
+   "desc": "Posizioni aperte e candidati.",
+   "status": "disponibile",
+   "noLogin": false
+  },
+  {
+   "name": "Lattice",
+   "cat": "HR e legale",
+   "desc": "Persone, review e obiettivi.",
+   "status": "disponibile",
+   "noLogin": false
+  },
+  {
+   "name": "Ironclad",
+   "cat": "HR e legale",
+   "desc": "Ricerca nei contratti e gestione degli obblighi.",
+   "status": "disponibile",
+   "noLogin": false
+  },
+  {
+   "name": "Juro",
+   "cat": "HR e legale",
+   "desc": "Contratti lungo tutto il ciclo di vita.",
+   "status": "disponibile",
+   "noLogin": false
+  },
+  {
+   "name": "Legal Data Hunter",
+   "cat": "HR e legale",
+   "desc": "23 milioni di documenti legali in 160 giurisdizioni.",
+   "status": "disponibile",
+   "noLogin": false
+  },
+  {
+   "name": "PubMed",
+   "cat": "Ricerca e web",
+   "desc": "Letteratura biomedica e articoli scientifici.",
+   "status": "disponibile",
+   "noLogin": true
+  },
+  {
+   "name": "alphaXiv",
+   "cat": "Ricerca e web",
+   "desc": "Ricerca full-text sui preprint di arXiv.",
+   "status": "disponibile",
+   "noLogin": false
+  },
+  {
+   "name": "SciSpace",
+   "cat": "Ricerca e web",
+   "desc": "Scoperta di articoli scientifici.",
+   "status": "disponibile",
+   "noLogin": true
+  },
+  {
+   "name": "Lacuna Research",
+   "cat": "Ricerca e web",
+   "desc": "2,3 milioni di paper su ML e AI e i loro autori.",
+   "status": "disponibile",
+   "noLogin": true
+  },
+  {
+   "name": "Firecrawl",
+   "cat": "Ricerca e web",
+   "desc": "Ricerca ed estrazione di dati dal web.",
+   "status": "disponibile",
+   "noLogin": false
+  },
+  {
+   "name": "TinyFish",
+   "cat": "Ricerca e web",
+   "desc": "Browser cloud per automatizzare siti e fare scraping.",
+   "status": "disponibile",
+   "noLogin": false
+  },
+  {
+   "name": "Anthropic Economic Index",
+   "cat": "Ricerca e web",
+   "desc": "Dati pubblici su come il mondo usa Claude.",
+   "status": "disponibile",
+   "noLogin": true
+  },
+  {
+   "name": "Booking.com",
+   "cat": "Viaggi, shopping e vita quotidiana",
+   "desc": "Cerca hotel, case e alloggi.",
+   "status": "disponibile",
+   "noLogin": true
+  },
+  {
+   "name": "lastminute.com",
+   "cat": "Viaggi, shopping e vita quotidiana",
+   "desc": "Voli, hotel e pacchetti.",
+   "status": "disponibile",
+   "noLogin": true
+  },
+  {
+   "name": "Turkish Airlines",
+   "cat": "Viaggi, shopping e vita quotidiana",
+   "desc": "Voli, stato dei voli e prenotazioni.",
+   "status": "disponibile",
+   "noLogin": true
+  },
+  {
+   "name": "TomTom Maps",
+   "cat": "Viaggi, shopping e vita quotidiana",
+   "desc": "Mappe, percorsi, traffico e punti di interesse.",
+   "status": "disponibile",
+   "noLogin": false
+  },
+  {
+   "name": "Mapbox",
+   "cat": "Viaggi, shopping e vita quotidiana",
+   "desc": "Geocoding, luoghi, percorsi e mappe interattive.",
+   "status": "disponibile",
+   "noLogin": false
+  },
+  {
+   "name": "Shopify",
+   "cat": "Viaggi, shopping e vita quotidiana",
+   "desc": "Prodotti, ordini e clienti del tuo negozio.",
+   "status": "disponibile",
+   "noLogin": true
+  },
+  {
+   "name": "Shop",
+   "cat": "Viaggi, shopping e vita quotidiana",
+   "desc": "Acquisti dai brand preferiti.",
+   "status": "disponibile",
+   "noLogin": false
+  },
+  {
+   "name": "Zillow",
+   "cat": "Viaggi, shopping e vita quotidiana",
+   "desc": "Case, affitti e quartieri (USA).",
+   "status": "disponibile",
+   "noLogin": true
+  },
+  {
+   "name": "HealthEx",
+   "cat": "Viaggi, shopping e vita quotidiana",
+   "desc": "Le tue cartelle cliniche per insight personali.",
+   "status": "disponibile",
+   "noLogin": false
+  },
+  {
+   "name": "Play Sheet Music",
+   "cat": "Viaggi, shopping e vita quotidiana",
+   "desc": "Genera e suona spartiti con un visualizzatore.",
+   "status": "disponibile",
+   "noLogin": true
+  },
+  {
+   "name": "MCP & Skills Finder",
+   "cat": "Ricerca e web",
+   "desc": "Catalogo esterno di server MCP, skill e plugin.",
+   "status": "attivo",
+   "noLogin": true
+  },
+  {
+   "name": "Artefatti",
+   "cat": "Integrati in Claude",
+   "desc": "Pubblica pagine, documenti, presentazioni, design e dashboard con un link privato condivisibile.",
+   "status": "sempre attivo",
+   "noLogin": true
+  },
+  {
+   "name": "Claude Docs",
+   "cat": "Integrati in Claude",
+   "desc": "Scrive e modifica i documenti nativi di Claude (Docs e Sheets).",
+   "status": "sempre attivo",
+   "noLogin": true
+  },
+  {
+   "name": "Ricerca web",
+   "cat": "Integrati in Claude",
+   "desc": "Cerca sul web e legge le pagine pubbliche.",
+   "status": "sempre attivo",
+   "noLogin": true
+  },
+  {
+   "name": "Attività programmate",
+   "cat": "Integrati in Claude",
+   "desc": "Esegue un compito a orari prestabiliti o una volta sola nel futuro.",
+   "status": "sempre attivo",
+   "noLogin": true
+  },
+  {
+   "name": "Il tuo computer",
+   "cat": "Integrati in Claude",
+   "desc": "File, browser integrato e controllo delle app sul tuo computer tramite l'app desktop di Claude.",
+   "status": "serve l'app desktop",
+   "noLogin": true
+  }
+ ],
+ "news": [
+  {
+   "date": "2025-12-18",
+   "title": "Skill come standard aperto e console centralizzata per Team ed Enterprise",
+   "text": "Anthropic ha reso le skill uno standard aperto e ha introdotto una gestione centralizzata per le organizzazioni.",
+   "url": "https://www.pulse.bot/ai/news/anthropic-launches-skills-open-standard-for-claude-40447e4b-e0df-4019-a283-ed67c366ac69/"
+  },
+  {
+   "date": "2025-10-16",
+   "title": "Lancio delle Skill di Claude",
+   "text": "Cartelle di istruzioni, script e risorse che Claude carica solo quando servono; combinabili tra loro e utilizzabili nelle app, in Claude Code e via API.",
+   "url": "https://yourstory.com/ai-story/anthropic-claude-skills-tasks-ai-agents"
+  }
+ ],
+ "suggestionsNote": "Per ora i suggerimenti si basano su ciò che hai collegato (Gmail, Calendar, Drive) e installato (plugin Elastic). Si affineranno man mano che annotiamo nel file di progetto cosa fai con Claude.",
+ "suggestions": [
+  {
+   "name": "Plugin Productivity (Anthropic)",
+   "why": "Gestisce attività, pianifica la giornata e costruisce una memoria del contesto di lavoro, sincronizzandosi con email e calendario: sfrutta i connettori Gmail e Calendar che hai già.",
+   "how": "Installabile dal catalogo plugin. Chiedimelo e ti mostro la scheda."
+  },
+  {
+   "name": "/morning",
+   "why": "Hai già Gmail e Calendar collegati: il brief mattutino li riassume in una pagina ogni giorno feriale.",
+   "how": "Scrivi /morning, oppure chiedimi di renderlo ricorrente."
+  },
+  {
+   "name": "Memoria di Claude",
+   "why": "Mi permette di ricordare tra una conversazione e l'altra cosa fai e come preferisci lavorare, così i suggerimenti diventano davvero personali.",
+   "how": "Impostazioni → Memoria: attiva \"genera memoria dalla cronologia\"."
+  },
+  {
+   "name": "skill-creator",
+   "why": "Se c'è un procedimento che ripeti spesso (un report, un controllo, un'email tipo), una skill tua mi fa lavorare sempre allo stesso modo.",
+   "how": "Dimmi \"creiamo una skill per…\"."
+  },
+  {
+   "name": "Connettore Elastic Cloud Serverless",
+   "why": "Hai il plugin Elastic: con questo connettore le sue skill possono lavorare direttamente sui tuoi dati Elastic (query ES|QL, indici, workflow).",
+   "how": "Impostazioni → Connettori → cerca \"Elastic\"."
+  },
+  {
+   "name": "Abilitare Google Docs in chat",
+   "why": "Il connettore è collegato ma non attivo: abilitandolo posso modificare e commentare direttamente i tuoi Google Docs.",
+   "how": "Impostazioni → Connettori → Google Docs."
+  }
+ ],
+ "guide": [
+  {
+   "t": "Connettori",
+   "b": "Danno accesso alle tue app (Gmail, Drive, Slack…). Senza un connettore non posso leggere né agire in quel servizio. In breve: la chiave di casa."
+  },
+  {
+   "t": "Skill",
+   "b": "Istruzioni e script che mi insegnano un metodo (fare un Excel, leggere un PDF, un grafico). Le carico da solo quando servono. In breve: la ricetta."
+  },
+  {
+   "t": "Plugin",
+   "b": "Pacchetti che mettono insieme skill, connettori, comandi e agenti per un ruolo o un dominio. Si installano in blocco. In breve: il kit completo."
+  },
+  {
+   "t": "Comandi slash",
+   "b": "Scrivi / seguito dal nome (es. /morning) per avviare subito una skill o un'azione. Utili per flussi ripetitivi e per skill che partono solo su richiesta."
+  },
+  {
+   "t": "Artefatti",
+   "b": "Pagine, documenti, presentazioni e dashboard pubblicati con un link privato che puoi condividere quando vuoi."
+  },
+  {
+   "t": "Attività programmate",
+   "b": "Compiti che eseguo da solo a orari fissi, come l'aggiornamento settimanale di questa guida."
+  },
+  {
+   "t": "Come chiedere",
+   "b": "Di' cosa vuoi ottenere, per chi e in che formato. Allega i file o nomina l'app. Se una skill non parte, nominala tu."
+  }
+ ]
+}

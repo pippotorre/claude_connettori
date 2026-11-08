@@ -1,0 +1,21 @@
+{
+  "name": "Guida Claude — skill e connettori",
+  "short_name": "Guida Claude",
+  "description": "Guida tascabile a skill, connettori, novità e suggerimenti per usare Claude.",
+  "lang": "it",
+  "start_url": "./#skill",
+  "scope": "./",
+  "display": "standalone",
+  "orientation": "portrait",
+  "background_color": "#f7f6f3",
+  "theme_color": "#c2562f",
+  "icons": [
+    {"src": "icons/icon-192.png", "sizes": "192x192", "type": "image/png", "purpose": "any"},
+    {"src": "icons/icon-512.png", "sizes": "512x512", "type": "image/png", "purpose": "any"},
+    {"src": "icons/icon-maskable-512.png", "sizes": "512x512", "type": "image/png", "purpose": "maskable"}
+  ],
+  "shortcuts": [
+    {"name": "Connettori", "url": "./#connettori"},
+    {"name": "Novità", "url": "./#novita"}
+  ]
+}
